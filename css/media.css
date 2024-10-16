@@ -1,0 +1,2543 @@
+@media (min-width:1900px) {
+    .modal-btn {
+        display: none;
+    }
+
+    h3 {
+        margin: 30px 0px 50px 0px !important;
+    }
+
+    /* banner */
+
+    .banner-img2 {
+        display: none;
+    }
+
+    /* questions */
+
+    .questions {
+        padding-top: 550px !important;
+    }
+
+    /* services */
+
+    .services .text {
+        width: 292px;
+    }
+
+    /* footer */
+
+    .hide-footerr {
+        display: none;
+    }
+
+    .footer .col-3 {
+        width: 22.3%;
+    }
+
+    .footer input {
+        width: 371px !important;
+    }
+
+    .footer .footer-btn {
+        width: 371px !important;
+    }
+
+    /* about-page----------------------------------------- */
+
+    .about-page h3 {
+        margin: 40px 61px 0px 0px !important;
+    }
+
+}
+
+@media (max-width:1899px) and (min-width:1400px) {
+    .modal-btn {
+        display: none;
+    }
+
+    h3 {
+        margin: 30px 0px 50px 0px !important;
+    }
+
+    /* banner */
+
+    .banner-img2 {
+        display: none;
+    }
+
+    /* questions */
+
+    .questions {
+        padding-top: 550px !important;
+    }
+
+    /* services */
+
+    .services .text {
+        width: 292px;
+    }
+
+    /* footer */
+
+    .hide-footerr {
+        display: none;
+    }
+
+    .footer .col-3 {
+        width: 22.3%;
+    }
+
+    .footer input {
+        width: 371px !important;
+    }
+
+    .footer .footer-btn {
+        width: 371px !important;
+    }
+
+    /* about-page----------------------------------------- */
+
+    .about-page h3 {
+        margin: 40px 61px 0px 0px !important;
+    }
+
+}
+
+@media (max-width:1399px) and (min-width:1200px) {
+
+    .container {
+        padding: 0 1.5rem;
+    }
+
+    .modal-btn {
+        display: none;
+    }
+
+    .all-margin {
+        margin: 100px 0 !important;
+    }
+
+    .top-margin {
+        margin-top: 100px !important;
+    }
+
+    .bottom-margin {
+        margin-bottom: 100px !important;
+    }
+
+    .all-padding {
+        padding: 100px 0 !important;
+    }
+
+    .top-padding {
+        padding-top: 100px !important;
+    }
+
+    .bottom-padding {
+        padding-bottom: 100px !important;
+    }
+
+    h3 {
+        margin: 30px 0px 50px 0px !important;
+    }
+
+    /* header */
+
+    .navbar .nav-item.px-4 {
+        padding: 0 1.3rem !important;
+    }
+
+    /* banner */
+
+    .banner-img .col-6 {
+        width: 50%;
+    }
+
+    .banner-img img {
+        width: 100%;
+        height: 680px !important;
+    }
+
+    .banner-img .img2 {
+        transform: translatex(-1px);
+    }
+
+    /* questions */
+
+    .questions {
+        padding-top: 530px !important;
+    }
+
+    .questions .col-4 {
+        width: 384px !important;
+        height: 208px !important;
+    }
+
+    /* img */
+
+    .img-section br {
+        display: none;
+    }
+
+    .img-section2 {
+        height: 564px !important;
+    }
+
+    /* services */
+
+    .services img {
+        width: 279px !important;
+    }
+
+    .services .text {
+        width: 279px !important;
+        padding: 0px 20px !important;
+    }
+
+    .banner-img2 {
+        display: none;
+    }
+
+    /* footer */
+
+    .hide-footerr {
+        display: none;
+    }
+
+    .footer .col-3 {
+        width: 22.3%;
+    }
+
+    .footer input {
+        width: 371px !important;
+    }
+
+    .footer .footer-btn {
+        width: 371px !important;
+    }
+
+    /* faq-page----------------------------------------- */
+
+    .faq-page br {
+        display: none;
+    }
+
+    /* about-page----------------------------------------- */
+
+    .about-page h3 {
+        margin: 40px 61px 0px 0px !important;
+    }
+
+    /* blog-inner-page */
+
+    .blog-inner br {
+        display: none !important;
+    }
+
+    .blog-inner .blog-img img {
+        height: 546px !important;
+    }
+
+    /* search-page----------------------------------------- */
+
+    .section br {
+        display: none;
+    }
+
+    .section img {
+        height: 238px !important;
+    }
+
+}
+
+@media (max-width:1199px) and (min-width:1025px) {
+
+    .container {
+        padding: 0 1.5rem;
+    }
+
+    .all-margin {
+        margin: 90px 0 !important;
+    }
+
+    .top-margin {
+        margin-top: 90px !important;
+    }
+
+    .bottom-margin {
+        margin-bottom: 90px !important;
+    }
+
+    .all-padding {
+        padding: 90px 0 !important;
+    }
+
+    .top-padding {
+        padding-top: 90px !important;
+    }
+
+    .bottom-padding {
+        padding-bottom: 90px !important;
+    }
+
+    h3 {
+        margin: 30px 0px 50px 0px !important;
+    }
+
+    /* header */
+
+    .navbar .col-5 {
+        display: none !important;
+    }
+
+    .navbar .justify-content-center {
+        justify-content: start !important;
+    }
+
+    .navbar .container-fluid {
+        padding: 0 15px !important;
+    }
+
+    .navbar .logo img {
+        max-width: 150px !important;
+        height: 91px !important;
+    }
+
+    /* banner */
+
+    .banner .col-12 {
+        padding: 80px 0 60px !important;
+    }
+
+    .banner-img .col-6 {
+        width: 50%;
+    }
+
+    .banner-img img {
+        width: 471px !important;
+        height: 574px !important;
+    }
+
+    .banner-img .img1 img {
+        padding-right: 0rem !important;
+    }
+
+    .banner-img .img1 img {
+        padding-right: 0rem !important;
+    }
+
+    .banner-img2 {
+        display: none;
+    }
+
+    /* questions */
+
+    .questions {
+        padding-top: 380px !important;
+    }
+
+    .questions .col-4 {
+        width: 326px !important;
+        height: 234px !important;
+    }
+
+    /* team */
+
+    .team img {
+        height: 250px;
+    }
+
+    /* img */
+
+    .img-section br {
+        display: none;
+    }
+
+    .img-section2 {
+        height: 564px !important;
+    }
+
+    /* services */
+
+    .services img {
+        width: 235px !important;
+    }
+
+    .services .text {
+        width: 235px !important;
+        padding: 0px 20px !important;
+    }
+
+    /* blog */
+
+    .blog .item br {
+        display: none;
+    }
+
+    /* footer */
+
+    .hide-footerr {
+        display: none;
+    }
+
+    .footer .fix-btn .btn {
+        right: 1.2% !important;
+    }
+
+    .footer .col-3 {
+        width: 22.3%;
+    }
+
+    .footer input {
+        width: 306px !important;
+    }
+
+    .footer .footer-btn {
+        width: 306px !important;
+    }
+
+    /* faq-page----------------------------------------- */
+
+    .faq-page .col-6 br {
+        display: none;
+    }
+
+    /* about-page----------------------------------------- */
+
+    .about-page h3 {
+        margin: 40px 0px 0px 0px !important;
+    }
+
+    /* blog-page----------------------------------------- */
+
+    .blog-page .blog-sec .pe-5 {
+        padding-right: 0px !important;
+    }
+
+    .blog-page .blog-sec img {
+        height: 75px !important;
+    }
+
+    /* blog-inner-page */
+
+    .blog-inner br {
+        display: none !important;
+    }
+
+    .blog-inner .blog-img img {
+        height: 458px !important;
+    }
+
+    /* contact-page----------------------------------------- */
+
+    .contact .main-p br {
+        display: none;
+    }
+
+    /* search-page----------------------------------------- */
+
+    .section img {
+        height: 199px !important;
+    }
+
+    .section br {
+        display: none;
+    }
+}
+
+@media (max-width:1024px) and (min-width:992px) {
+
+    .container {
+        padding: 0 1.5rem;
+    }
+
+    h3 {
+        margin: 30px 0px 50px 0px !important;
+    }
+
+    .all-margin {
+        margin: 90px 0 !important;
+    }
+
+    .top-margin {
+        margin-top: 90px !important;
+    }
+
+    .bottom-margin {
+        margin-bottom: 90px !important;
+    }
+
+    .all-padding {
+        padding: 90px 0 !important;
+    }
+
+    .top-padding {
+        padding-top: 90px !important;
+    }
+
+    .bottom-padding {
+        padding-bottom: 90px !important;
+    }
+
+    /* header */
+
+    .navbar .col-5 {
+        display: none !important;
+    }
+
+    .navbar .justify-content-center {
+        justify-content: start !important;
+    }
+
+    .navbar .container-fluid {
+        padding: 0 15px !important;
+    }
+
+    .navbar .logo img {
+        max-width: 150px !important;
+        height: 91px !important;
+    }
+
+    /* banner-img */
+
+    .banner .col-12 {
+        padding: 90px 0 50px !important;
+    }
+
+    .banner-img .col-6 {
+        width: 50%;
+    }
+
+    .banner-img img {
+        width: 457px !important;
+        height: 556px !important;
+    }
+
+    .banner-img .img2 {
+        transform: translatex(-1px);
+    }
+
+    /* banner-img */
+
+    .banner-img img {
+        width: 457px;
+        height: 556px;
+    }
+
+    .banner-img .img1 img {
+        padding-right: 0rem !important;
+    }
+
+    .banner-img .img2 img {
+        padding-right: 0rem !important;
+    }
+
+    .banner-img .img2 {
+        transform: translatex(0px);
+    }
+
+    .banner-img2 {
+        display: none;
+    }
+
+    /* questions */
+
+    .questions {
+        padding-top: 360px !important;
+    }
+
+    .questions .col-4 {
+        width: 322px !important;
+        height: 234px !important;
+    }
+
+    /* team */
+
+    .team {
+        text-align: center;
+    }
+
+    .team .row2 {
+        margin-top: 30px !important;
+    }
+
+    .team .col-6 {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .team .my-4 {
+        margin: 1rem 0 !important;
+    }
+
+    .team .d-flex {
+        justify-content: center;
+    }
+
+    /* img */
+
+    .img-section {
+        height: 399px !important;
+    }
+
+    .img-section h3 {
+        margin: 0px 0px 30px !important;
+    }
+
+    .img-section .col-6 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .justify-content-end {
+        justify-content: center !important;
+    }
+
+    .img-section2 {
+        height: 428px !important;
+    }
+
+    /* services */
+
+    .services .main {
+        text-align: center;
+    }
+
+    .services .col-6 br {
+        display: none;
+    }
+
+    .services .col-6 {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .services img {
+        width: 471px !important;
+    }
+
+    .services .text {
+        width: 471px !important;
+        padding: 0px 80px 0px 30px !important;
+    }
+
+    .services .row.services-row {
+        margin-top: 0px !important;
+    }
+
+    /* blog */
+
+    .blog .main {
+        text-align: center;
+    }
+
+    .blog .item br {
+        display: none;
+    }
+
+    .blog h4 {
+        padding-right: 2rem !important;
+    }
+
+    /* footer */
+
+    .hide-footerr {
+        display: none;
+    }
+
+    .footer .col-3 {
+        width: 50%;
+        padding-bottom: 4rem;
+        text-align: center;
+    }
+
+    .footer .row.info {
+        padding: 55px 0 10px !important;
+    }
+
+    .footer .fix-btn .btn {
+        right: 1.2% !important;
+    }
+
+    /* team-page----------------------------------------- */
+
+    .team-page .col-4 {
+        width: 50%;
+        margin-bottom: 1rem;
+    }
+
+    .team-page .row.mt-4 {
+        margin-top: 0px !important;
+    }
+
+    /* price-page----------------------------------------- */
+
+    .price-page .col-4 {
+        width: 50%;
+        margin-bottom: 1.6rem;
+    }
+
+    /* faq-page----------------------------------------- */
+
+    .faq-page .main {
+        text-align: center;
+    }
+
+    .faq-page .col-6 {
+        width: 100%;
+    }
+
+    .faq-page .col-6 br {
+        display: none;
+    }
+
+    /* about-page----------------------------------------- */
+
+    .about-page {
+        text-align: center;
+    }
+
+    .about-page h3 {
+        margin: 20px 0px 10px 0px !important;
+    }
+
+    .about-page .col-6 {
+        width: 100%;
+        padding: 0 7rem !important;
+    }
+
+    .about-page .col-4 {
+        width: 50%;
+    }
+
+    .about-top {
+        margin-top: 2rem;
+    }
+
+    /* blog-page----------------------------------------- */
+
+    .blog-page br {
+        display: none;
+    }
+
+    .blog-page .col-4 {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .blog-page .col-3 {
+        width: 10%;
+    }
+
+    .blog-page .blog-sec .row {
+        margin-bottom: .5rem;
+    }
+
+    .blog-page .col-8 {
+        width: 100%;
+    }
+
+    .blog-page .col-8 img {
+        height: 226px !important;
+        width: 100%;
+    }
+
+    .blog-page .blog-sec .pe-5 {
+        padding-right: 0px !important;
+    }
+
+    /* blog-inner-page */
+
+    .blog-inner br {
+        display: none !important;
+    }
+
+    .blog-inner .blog-img img {
+        height: 442px !important;
+    }
+
+    .blog-inner h2 {
+        font-size: 40px !important;
+        line-height: 50px !important;
+    }
+
+    /* contact-page----------------------------------------- */
+
+    .contact .col-6.contact-main {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* search-page----------------------------------------- */
+
+    .section .col-4 {
+        width: 50%;
+    }
+}
+
+@media (max-width:991px) and (min-width:768px) {
+
+    .container {
+        padding: 0 1.5rem;
+    }
+
+    h2 {
+        font-size: 50px !important;
+        line-height: 60px !important;
+    }
+
+    h3 {
+        font-size: 40px !important;
+        line-height: 50px !important;
+        margin: 30px 0px 50px 0px !important;
+    }
+
+    .all-margin {
+        margin: 80px 0 !important;
+    }
+
+    .top-margin {
+        margin-top: 80px !important;
+    }
+
+    .bottom-margin {
+        margin-bottom: 80px !important;
+    }
+
+    .all-padding {
+        padding: 80px 0 !important;
+    }
+
+    .top-padding {
+        padding-top: 80px !important;
+    }
+
+    .bottom-padding {
+        padding-bottom: 80px !important;
+    }
+
+    /* header */
+
+    .navbar .col-5 {
+        display: none !important;
+    }
+
+    .navbar .justify-content-center {
+        justify-content: start !important;
+    }
+
+    .navbar .container-fluid {
+        padding: 0 15px !important;
+    }
+
+    .navbar .logo img {
+        max-width: 150px !important;
+        height: 91px !important;
+    }
+
+    /* banner-img */
+
+    .banner .col-12 {
+        padding: 90px 0 60px !important;
+    }
+
+    .banner-img .col-6 {
+        width: 50%;
+    }
+
+    .banner-img img {
+        width: 345px !important;
+        height: 420px !important;
+    }
+
+    .banner-img .img2 {
+        transform: translatex(-1px);
+    }
+
+    .banner-img2 {
+        display: none;
+    }
+
+    /* questions */
+
+    .questions br {
+        display: none;
+    }
+
+    .questions {
+        padding-top: 220px !important;
+    }
+
+    .questions .col-4 {
+        width: 248px !important;
+        height: 234px !important;
+    }
+
+    /* team */
+
+    .team {
+        text-align: center;
+    }
+
+    .team img {
+        width: 585px;
+        height: 221px !important;
+    }
+
+    .team .row2 {
+        margin-top: 30px !important;
+    }
+
+    .team .col-6 {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .team .my-4 {
+        margin: 1rem 0 !important;
+    }
+
+    .team .d-flex {
+        justify-content: center;
+    }
+
+    /* img */
+
+    .img-section {
+        height: 399px !important;
+    }
+
+    .img-section h3 {
+        margin: 0px 0px 30px !important;
+    }
+
+    .img-section .col-6 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .justify-content-end {
+        justify-content: center !important;
+    }
+
+    .img-section2 {
+        height: 428px !important;
+    }
+
+    /* services */
+
+    .services .main {
+        text-align: center;
+    }
+
+    .services .col-6 {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .services img {
+        width: 359px !important;
+    }
+
+    .services .text {
+        width: 359px !important;
+        padding: 0px 90px 0px 30px !important;
+    }
+
+    .services .row.services-row {
+        margin-top: 0px !important;
+    }
+
+    /* blog */
+
+    .blog .main {
+        text-align: center;
+    }
+
+    .blog .item br {
+        display: none;
+    }
+
+    .blog h4 {
+        padding-right: 3rem !important;
+    }
+
+    /* footer */
+
+    .hide-footerr {
+        display: none;
+    }
+
+    .footer .col-3 {
+        width: 50%;
+        padding-bottom: 4rem;
+        text-align: center;
+    }
+
+    .footer .row.info {
+        padding: 50px 0 5px !important;
+    }
+
+    .footer .fix-btn .btn {
+        right: 1.5% !important;
+    }
+
+    /* team-page----------------------------------------- */
+
+    .team-page .col-4 {
+        width: 50%;
+        margin-bottom: 1.5rem;
+    }
+
+    .team-page .row.mt-4 {
+        margin-top: 0px !important;
+    }
+
+    /* price-page----------------------------------------- */
+
+    .price-page .col-4 {
+        width: 50%;
+        margin-bottom: 1.6rem;
+    }
+
+    .price-page h2 {
+        font-size: 65px !important;
+        line-height: 75px !important;
+    }
+
+    /* faq-page----------------------------------------- */
+
+    .faq-page br {
+        display: none;
+    }
+
+    .faq-page .main {
+        text-align: center;
+    }
+
+    .faq-page .col-6 {
+        width: 100%;
+    }
+
+    /* coming-page----------------------------------------- */
+
+    #timer {
+        div {
+            margin: 0 2.6rem !important;
+        }
+    }
+
+    /* about-page----------------------------------------- */
+
+    .about-page {
+        text-align: center;
+    }
+
+    .about-page h3 {
+        margin: 20px 0px 10px 0px !important;
+    }
+
+    .about-page .col-6 {
+        width: 100%;
+        padding: 0 7rem !important;
+    }
+
+    .about-page .col-4 {
+        width: 50%;
+    }
+
+    .about-top {
+        margin-top: 2rem;
+    }
+
+    /* blog-page----------------------------------------- */
+
+    .blog-page br {
+        display: none;
+    }
+
+    .blog-page .col-4 {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .blog-page .col-3 {
+        width: 14%;
+    }
+
+    .blog-page .blog-sec .row {
+        margin-bottom: .5rem;
+    }
+
+    .blog-page .col-8 {
+        width: 100%;
+    }
+
+    .blog-page .col-8 img {
+        height: 170px !important;
+        width: 100%;
+    }
+
+    .blog-page .blog-sec .pe-5 {
+        padding-right: 0px !important;
+    }
+
+    /* blog-inner-page */
+
+    .blog-inner br {
+        display: none !important;
+    }
+
+    .blog-inner .blog-img img {
+        height: 330px !important;
+    }
+
+    .blog-inner h2 {
+        font-size: 40px !important;
+        line-height: 50px !important;
+    }
+
+    /* contact-page----------------------------------------- */
+
+    .contact .col-6.contact-main {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* search-page----------------------------------------- */
+
+    .section .col-4 {
+        width: 50%;
+    }
+
+    .section img {
+        height: 226px !important;
+    }
+
+    .section br {
+        display: none;
+    }
+}
+
+@media (max-width:767px) and (min-width:576px) {
+
+    .container {
+        padding: 0 1.5rem;
+        overflow-x: hidden;
+    }
+
+    h2 {
+        font-size: 28px !important;
+        line-height: 38px !important;
+    }
+
+    h3 {
+        font-size: 28px !important;
+        line-height: 38px !important;
+        margin: 20px 0px 30px 0px !important;
+    }
+
+    .all-margin {
+        margin: 60px 0 !important;
+    }
+
+    .top-margin {
+        margin-top: 60px !important;
+    }
+
+    .bottom-margin {
+        margin-bottom: 60px !important;
+    }
+
+    .all-padding {
+        padding: 60px 0 !important;
+    }
+
+    .top-padding {
+        padding-top: 60px !important;
+    }
+
+    .bottom-padding {
+        padding-bottom: 60px !important;
+    }
+
+    /* header */
+
+    .navbar .col-5 {
+        display: none !important;
+    }
+
+    .navbar .justify-content-center {
+        justify-content: start !important;
+    }
+
+    .navbar .container-fluid {
+        padding: 0 15px !important;
+    }
+
+    .navbar .logo img {
+        max-width: 120px !important;
+        height: 73px !important;
+    }
+
+    /* banner-img */
+
+    .banner {
+        padding-bottom: 0px !important;
+    }
+
+    .banner .col-12 {
+        padding: 60px 0 !important;
+    }
+
+    .banner-img {
+        display: none;
+    }
+
+    .banner-img2 .col-6 {
+        width: 100%;
+    }
+
+    .banner-img2 img {
+        width: 100%;
+    }
+
+    .banner-img2 .img2 {
+        margin-top: 2rem;
+    }
+
+    /* questions */
+
+    .questions .accordion-body br {
+        display: none;
+    }
+
+    .questions .main {
+        text-align: center;
+    }
+
+    .questions .bottom-padding {
+        padding-bottom: 30px !important;
+    }
+
+    .questions .col-6 {
+        width: 100%;
+    }
+
+    .questions .question-border {
+        border: none !important;
+    }
+
+    .questions .col-4 {
+        width: 100% !important;
+        padding: .5rem 0 !important;
+        text-align: center;
+    }
+
+    .questions .col-3 {
+        width: 100%;
+        justify-content: center;
+        display: grid;
+    }
+
+    .questions .col-9 {
+        width: 100%;
+        padding-top: 2.5rem;
+    }
+
+    /* team */
+
+    .team {
+        text-align: center;
+    }
+
+    .team .col-6 br {
+        display: none;
+    }
+
+    .team img {
+        width: 585px;
+        height: 221px !important;
+    }
+
+    .team .row2 {
+        margin-top: 30px !important;
+    }
+
+    .team .col-6 {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .team .my-4 {
+        margin: 1rem 0 !important;
+    }
+
+    .team .d-flex {
+        justify-content: center;
+    }
+
+    /* client */
+
+    .client p br {
+        display: none;
+    }
+
+    /* img */
+
+    .img-section br {
+        display: none;
+    }
+
+    .img-section {
+        height: 296px !important;
+    }
+
+    .img-section h3 {
+        margin: 0px 0px 30px !important;
+    }
+
+    .img-section .col-6 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .justify-content-end {
+        justify-content: center !important;
+    }
+
+    .img-section2 {
+        height: 330px !important;
+    }
+
+    /* services */
+
+    .services {
+        text-align: center;
+    }
+
+    .services .col-6 br {
+        display: none;
+    }
+
+    .services .col-6 {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .services img {
+        width: 100% !important;
+        height: 200px !important;
+    }
+
+    .services .d-flex {
+        display: block !important;
+    }
+
+    .services .text {
+        width: 526px !important;
+        align-items: center !important;
+        padding: 0px 40px !important;
+    }
+
+    .services .row.services-row {
+        margin-top: 0px !important;
+    }
+
+    /* blog */
+
+    .blog .main {
+        text-align: center;
+    }
+
+    .blog .item br {
+        display: none;
+    }
+
+    .blog h4 {
+        padding-right: 14rem !important;
+    }
+
+    /* footer */
+
+    .footer .hide-footer {
+        display: none !important;
+    }
+
+    .footer .col-3 {
+        width: 100%;
+        padding-bottom: 1rem;
+    }
+
+    .footer .row.info {
+        padding: 50px 0 !important;
+    }
+
+    .footer .fix-btn .btn {
+        right: 2% !important;
+    }
+
+    /* inner-page-top */
+
+    .top-img {
+        min-height: 200px !important;
+    }
+
+    .top-bg {
+        min-height: 200px !important;
+    }
+
+    .top h2 {
+        font-size: 30px !important;
+        line-height: 40px !important;
+        margin-bottom: 5px !important;
+    }
+
+    .top .h2-80 {
+        font-size: 30px !important;
+        line-height: 40px !important;
+        margin-bottom: 5px !important;
+    }
+
+    /* team-page----------------------------------------- */
+
+    .team-page .col-4 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+
+    .team-page .d-flex {
+        justify-content: center;
+    }
+
+    .team-page .row.mt-4 {
+        margin-top: 0px !important;
+    }
+
+    /* price-page----------------------------------------- */
+
+    .price-page .col-4 {
+        width: 100%;
+        margin-bottom: 1.6rem;
+    }
+
+    .price-page h2 {
+        font-size: 65px !important;
+        line-height: 75px !important;
+    }
+
+    /* faq-page----------------------------------------- */
+
+    .faq-page br {
+        display: none;
+    }
+
+    .faq-page .main {
+        text-align: center;
+    }
+
+    .faq-page .col-6 {
+        width: 100%;
+    }
+
+    /* coming-page----------------------------------------- */
+
+    .coming-bg {
+        height: 489px !important;
+    }
+
+    #timer {
+        margin: 1.5rem 0 4rem !important;
+
+        div {
+            font-size: 28px !important;
+            line-height: 38px !important;
+            margin: 0 1.2rem !important;
+        }
+    }
+
+    .fix-part h2 {
+        font-size: 33px !important;
+        line-height: 44px !important;
+    }
+
+    /* about-page----------------------------------------- */
+
+    .about-page {
+        text-align: center;
+    }
+
+    .about-page h3 {
+        margin: 20px 0px 10px 0px !important;
+    }
+
+    .about-page .col-6 {
+        width: 100%;
+    }
+
+    .about-page .col-4 {
+        width: 100%;
+    }
+
+    .about-all {
+        margin: 2rem 0;
+    }
+
+    /* blog-page----------------------------------------- */
+
+    .blog-page br {
+        display: none;
+    }
+
+    .blog-page .col-4 {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .blog-page .col-3 {
+        width: 19%;
+    }
+
+    .blog-page .blog-sec .row {
+        margin-bottom: .5rem;
+    }
+
+    .blog-page .col-8 {
+        width: 100%;
+    }
+
+    .blog-page .col-8 img {
+        height: 122px !important;
+        width: 100%;
+    }
+
+    .blog-page .blog-sec .pe-5 {
+        padding-right: 0px !important;
+    }
+
+    /* blog-inner-page */
+
+    .blog-inner br {
+        display: none !important;
+    }
+
+    .blog-inner .container {
+        padding: 0 1.5rem;
+    }
+
+    .blog-inner .blog-img img {
+        height: 234px !important;
+    }
+
+    .blog-inner h2 {
+        font-size: 40px !important;
+        line-height: 50px !important;
+    }
+
+    .reply .col-4 {
+        width: 100%;
+    }
+
+    .reply .col-4.px-4 {
+        padding: 0px !important;
+        margin: 1rem 0;
+    }
+
+    /* contact-page----------------------------------------- */
+
+    .contact .main-p br {
+        display: none;
+    }
+
+    .contact .col-6 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .contact h6 {
+        font-size: 30px !important;
+        line-height: 40px !important;
+    }
+
+    /* search-page----------------------------------------- */
+
+    .section .col-4 {
+        width: 50%;
+    }
+
+    .section img {
+        height: 162px !important;
+    }
+
+    .section .d-flex p {
+        font-size: 12px;
+    }
+
+    .section br {
+        display: none;
+    }
+}
+
+@media (max-width:575px) and (min-width:320px) {
+
+    .container {
+        padding: 0 1.5rem;
+        overflow-x: hidden;
+    }
+
+    h2 {
+        font-size: 25px !important;
+        line-height: 35px !important;
+    }
+
+    h3 {
+        font-size: 25px !important;
+        line-height: 35px !important;
+        margin: 20px 0px 30px 0px !important;
+    }
+
+    .accordion-button {
+        font-size: 21px !important;
+        line-height: 31px !important;
+    }
+
+    .all-margin {
+        margin: 55px 0 !important;
+    }
+
+    .top-margin {
+        margin-top: 55px !important;
+    }
+
+    .bottom-margin {
+        margin-bottom: 55px !important;
+    }
+
+    .all-padding {
+        padding: 55px 0 !important;
+    }
+
+    .top-padding {
+        padding-top: 55px !important;
+    }
+
+    .bottom-padding {
+        padding-bottom: 55px !important;
+    }
+
+    /* header */
+
+    .navbar .col-5 {
+        display: none !important;
+    }
+
+    .navbar .justify-content-center {
+        justify-content: start !important;
+    }
+
+    .navbar .container-fluid {
+        padding: 0 15px !important;
+    }
+
+    .navbar .logo img {
+        max-width: 120px !important;
+        height: 73px !important;
+    }
+
+    /* banner-img */
+
+    .banner {
+        padding-bottom: 0px !important;
+    }
+
+    .banner-img {
+        display: none;
+    }
+
+    .banner .col-12 {
+        padding: 58px 0 !important;
+    }
+
+    .banner-img2 .col-6 {
+        width: 100%;
+    }
+
+    .banner-img2 .img2 {
+        margin-top: 2rem;
+    }
+
+    /* questions */
+
+    .questions .accordion-body br {
+        display: none;
+    }
+
+    .questions .main {
+        text-align: center;
+    }
+
+    .questions .bottom-padding {
+        padding-bottom: 0px !important;
+    }
+
+    .questions .col-6 {
+        width: 100%;
+    }
+
+    .questions .question-border {
+        border: none !important;
+    }
+
+    .questions .col-4 {
+        width: 100% !important;
+        padding: .5rem 0 !important;
+        text-align: center;
+    }
+
+    .questions .col-3 {
+        width: 100%;
+        justify-content: center;
+        display: grid;
+    }
+
+    .questions .col-9 {
+        width: 100%;
+        padding-top: 2.5rem;
+    }
+
+    /* team */
+
+    .team {
+        text-align: center;
+    }
+
+    .team br {
+        display: none;
+    }
+
+    .team img {
+        width: 585px;
+        height: 221px !important;
+    }
+
+    .team .row2 {
+        margin-top: 30px !important;
+    }
+
+    .team .col-6 {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .team .my-4 {
+        margin: .5rem 0 !important;
+    }
+
+    .team .d-flex {
+        justify-content: center;
+    }
+
+    /* client */
+
+    .client br {
+        display: none;
+    }
+
+    /* img */
+
+    .img-section {
+        height: 334px !important;
+    }
+
+    .img-section h3 {
+        margin: 0px 0px 30px !important;
+    }
+
+    .img-section .col-6 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .justify-content-end {
+        justify-content: center !important;
+    }
+
+    .img-section2 {
+        height: 368px !important;
+    }
+
+    /* services */
+
+    .services {
+        text-align: center;
+    }
+
+    .services .col-6 {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .services img {
+        width: 526px !important;
+        height: 200px !important;
+    }
+
+    .services .d-flex {
+        display: block !important;
+    }
+
+    .services .text {
+        align-items: center !important;
+        padding: 0px 40px !important;
+    }
+
+    .services .row.services-row {
+        margin-top: 0px !important;
+    }
+
+    /* blog */
+
+    .blog .main {
+        text-align: center;
+    }
+
+    .blog .item br {
+        display: none;
+    }
+
+    .blog h4 {
+        padding-right: 2rem !important;
+    }
+
+    /* footer */
+
+    .footer .hide-footer {
+        display: none !important;
+    }
+
+    .footer .col-3 {
+        width: 100%;
+        padding-bottom: 1rem;
+    }
+
+    .footer .row.info {
+        padding: 50px 0 !important;
+    }
+
+    .footer .fix-btn .btn {
+        right: 3% !important;
+    }
+
+    /* inner-page-top */
+
+    .top-img {
+        min-height: 200px !important;
+    }
+
+    .top-bg {
+        min-height: 200px !important;
+    }
+
+    .top h2 {
+        font-size: 30px !important;
+        line-height: 40px !important;
+        margin-bottom: 5px !important;
+    }
+
+    .top .h2-80 {
+        font-size: 30px !important;
+        line-height: 40px !important;
+        margin-bottom: 5px !important;
+    }
+
+    /* team-page----------------------------------------- */
+
+    .team-page .col-4 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+
+    .team-page img {
+        width: 272px;
+        height: 344px;
+    }
+
+    .team-page .d-flex {
+        justify-content: center;
+    }
+
+    .team-page .row.mt-4 {
+        margin-top: 0px !important;
+    }
+
+    /* price-page----------------------------------------- */
+
+    .price-page .col-4 {
+        width: 100%;
+        margin-bottom: 1.6rem;
+    }
+
+    .price-page h2 {
+        font-size: 65px !important;
+        line-height: 75px !important;
+    }
+
+    /* faq-page----------------------------------------- */
+
+    .faq-page br {
+        display: none;
+    }
+
+    .faq-page .main {
+        text-align: center;
+    }
+
+    .faq-page .col-6 {
+        width: 100%;
+    }
+
+    /* coming-page----------------------------------------- */
+
+    .coming-bg {
+        height: 588px !important;
+    }
+
+    #timer {
+        margin: 1.5rem 0 4rem !important;
+
+        div {
+            font-size: 28px !important;
+            line-height: 38px !important;
+            min-width: 60px !important;
+            margin: 0rem .2rem !important;
+        }
+    }
+
+    .fix-part h2 {
+        font-size: 33px !important;
+        line-height: 44px !important;
+    }
+
+    /* about-page----------------------------------------- */
+
+    .about-page {
+        text-align: center;
+    }
+
+    .about-page h3 {
+        margin: 20px 0px 10px 0px !important;
+    }
+
+    .about-page .col-6 {
+        width: 100%;
+    }
+
+    .about-page .col-4 {
+        width: 100%;
+    }
+
+    .about-all {
+        margin: 2rem 0;
+    }
+
+    /* blog-page----------------------------------------- */
+
+    .blog-page br {
+        display: none;
+    }
+
+    .blog-page .col-10 {
+        width: 79%;
+    }
+
+    .blog-page .col-4 {
+        width: 100%;
+    }
+
+    .blog-page .col-3 {
+        width: 34%;
+    }
+
+    .blog-page .col-9 {
+        padding: 0 .8rem !important;
+    }
+
+    .blog-page .blog-sec .row {
+        margin-bottom: .5rem;
+    }
+
+    .blog-page .col-8 {
+        width: 100%;
+    }
+
+    .blog-page .col-6 {
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+
+    .blog-page .col-8 img {
+        height: 136px !important;
+        width: 100%;
+    }
+
+    .blog-page .blog-sec .pe-5 {
+        padding-right: 0px !important;
+    }
+
+    .blog-page .part-margin {
+        margin: 0px -.8rem !important;
+    }
+
+    /* blog-inner-page */
+
+    .blog-inner br {
+        display: none !important;
+    }
+
+    .blog-inner .part {
+        font-size: 10px !important;
+        line-height: 20px !important;
+    }
+
+    .blog-inner span {
+        font-size: 10px !important;
+        line-height: 20px !important;
+    }
+
+    .blog-inner .row {
+        padding: 0 15px !important;
+    }
+
+    .blog-inner .blog-img img {
+        height: 136px !important;
+    }
+
+    .blog-inner h2 {
+        font-size: 25px !important;
+        line-height: 35px !important;
+    }
+
+    .reply .col-4 {
+        width: 100%;
+    }
+
+    .reply .col-4.px-4 {
+        padding: 0px !important;
+        margin: 1rem 0;
+    }
+
+    /* contact-page----------------------------------------- */
+
+    .contact .main-p br {
+        display: none;
+    }
+
+    .contact .col-6 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .contact h6 {
+        font-size: 30px !important;
+        line-height: 40px !important;
+    }
+
+    /* search-page----------------------------------------- */
+
+    .section .col-4 {
+        width: 100%;
+    }
+
+    .section img {
+        height: 181px !important;
+    }
+
+    .section br {
+        display: none;
+    }
+}
+
+@media (max-width:319px) {
+
+
+    .container {
+        padding: 0 1.5rem;
+        overflow-x: hidden;
+    }
+
+    h2 {
+        font-size: 25px !important;
+        line-height: 35px !important;
+    }
+
+    h3 {
+        font-size: 25px !important;
+        line-height: 35px !important;
+        margin: 20px 0px 30px 0px !important;
+    }
+
+    .accordion-button {
+        font-size: 21px !important;
+        line-height: 31px !important;
+    }
+
+    .all-margin {
+        margin: 55px 0 !important;
+    }
+
+    .top-margin {
+        margin-top: 55px !important;
+    }
+
+    .bottom-margin {
+        margin-bottom: 55px !important;
+    }
+
+    .all-padding {
+        padding: 55px 0 !important;
+    }
+
+    .top-padding {
+        padding-top: 55px !important;
+    }
+
+    .bottom-padding {
+        padding-bottom: 55px !important;
+    }
+
+    /* header */
+
+    .navbar .col-5 {
+        display: none !important;
+    }
+
+    .navbar .justify-content-center {
+        justify-content: start !important;
+    }
+
+    .navbar .container-fluid {
+        padding: 0 15px !important;
+    }
+
+    .navbar .logo img {
+        max-width: 120px !important;
+        height: 73px !important;
+    }
+
+    /* banner-img */
+
+    .banner {
+        padding-bottom: 0px !important;
+    }
+
+    .banner-img {
+        display: none;
+    }
+
+    .banner .col-12 {
+        padding: 58px 0 !important;
+    }
+
+    .banner-img2 .col-6 {
+        width: 100%;
+    }
+
+    .banner-img2 .img2 {
+        margin-top: 2rem;
+    }
+
+    /* questions */
+
+    .questions .accordion-body br {
+        display: none;
+    }
+
+    .questions .main {
+        text-align: center;
+    }
+
+    .questions .bottom-padding {
+        padding-bottom: 0px !important;
+    }
+
+    .questions .col-6 {
+        width: 100%;
+    }
+
+    .questions .question-border {
+        border: none !important;
+    }
+
+    .questions .col-4 {
+        width: 100% !important;
+        padding: .5rem 0 !important;
+        text-align: center;
+    }
+
+    .questions .col-3 {
+        width: 100%;
+        justify-content: center;
+        display: grid;
+    }
+
+    .questions .col-9 {
+        width: 100%;
+        padding-top: 2.5rem;
+    }
+
+    /* team */
+
+    .team {
+        text-align: center;
+    }
+
+    .team br {
+        display: none;
+    }
+
+    .team img {
+        width: 585px;
+        height: 221px !important;
+    }
+
+    .team .row2 {
+        margin-top: 30px !important;
+    }
+
+    .team .col-6 {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .team .my-4 {
+        margin: .5rem 0 !important;
+    }
+
+    .team .d-flex {
+        justify-content: center;
+    }
+
+    /* client */
+
+    .client br {
+        display: none;
+    }
+
+    /* img */
+
+    .img-section {
+        height: 334px !important;
+    }
+
+    .img-section h3 {
+        margin: 0px 0px 30px !important;
+    }
+
+    .img-section .col-6 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .justify-content-end {
+        justify-content: center !important;
+    }
+
+    .img-section2 {
+        height: 368px !important;
+    }
+
+    /* services */
+
+    .services {
+        text-align: center;
+    }
+
+    .services .col-6 {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+
+    .services img {
+        width: 526px !important;
+        height: 200px !important;
+    }
+
+    .services .d-flex {
+        display: block !important;
+    }
+
+    .services .text {
+        align-items: center !important;
+        padding: 0px 40px !important;
+    }
+
+    .services .row.services-row {
+        margin-top: 0px !important;
+    }
+
+    /* blog */
+
+    .blog .main {
+        text-align: center;
+    }
+
+    .blog .item br {
+        display: none;
+    }
+
+    .blog h4 {
+        padding-right: 2rem !important;
+    }
+
+    /* footer */
+
+    .footer .hide-footer {
+        display: none !important;
+    }
+
+    .footer .col-3 {
+        width: 100%;
+        padding-bottom: 1rem;
+    }
+
+    .footer .row.info {
+        padding: 50px 0 !important;
+    }
+
+    .footer .fix-btn .btn {
+        right: 3% !important;
+    }
+
+    /* inner-page-top */
+
+    .top-img {
+        min-height: 200px !important;
+    }
+
+    .top-bg {
+        min-height: 200px !important;
+    }
+
+    .top h2 {
+        font-size: 30px !important;
+        line-height: 40px !important;
+        margin-bottom: 5px !important;
+    }
+
+    .top .h2-80 {
+        font-size: 30px !important;
+        line-height: 40px !important;
+        margin-bottom: 5px !important;
+    }
+
+    /* team-page----------------------------------------- */
+
+    .team-page .col-4 {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 1.5rem;
+    }
+
+    .team-page img {
+        width: 272px;
+        height: 344px;
+    }
+
+    .team-page .d-flex {
+        justify-content: center;
+    }
+
+    .team-page .row.mt-4 {
+        margin-top: 0px !important;
+    }
+
+    /* price-page----------------------------------------- */
+
+    .price-page .col-4 {
+        width: 100%;
+        margin-bottom: 1.6rem;
+    }
+
+    .price-page h2 {
+        font-size: 65px !important;
+        line-height: 75px !important;
+    }
+
+    /* faq-page----------------------------------------- */
+
+    .faq-page br {
+        display: none;
+    }
+
+    .faq-page .main {
+        text-align: center;
+    }
+
+    .faq-page .col-6 {
+        width: 100%;
+    }
+
+    /* coming-page----------------------------------------- */
+
+    .coming-bg {
+        height: 588px !important;
+    }
+
+    #timer {
+        margin: 1.5rem 0 4rem !important;
+
+        div {
+            font-size: 28px !important;
+            line-height: 38px !important;
+            min-width: 60px !important;
+            margin: 0rem .2rem !important;
+        }
+    }
+
+    .fix-part h2 {
+        font-size: 33px !important;
+        line-height: 44px !important;
+    }
+
+    /* about-page----------------------------------------- */
+
+    .about-page {
+        text-align: center;
+    }
+
+    .about-page h3 {
+        margin: 20px 0px 10px 0px !important;
+    }
+
+    .about-page .col-6 {
+        width: 100%;
+    }
+
+    .about-page .col-4 {
+        width: 100%;
+    }
+
+    .about-all {
+        margin: 2rem 0;
+    }
+
+    /* blog-page----------------------------------------- */
+
+    .blog-page br {
+        display: none;
+    }
+
+    .blog-page .col-10 {
+        width: 79%;
+    }
+
+    .blog-page .col-4 {
+        width: 100%;
+    }
+
+    .blog-page .col-3 {
+        width: 34%;
+    }
+
+    .blog-page .col-9 {
+        padding: 0 .8rem !important;
+    }
+
+    .blog-page .blog-sec .row {
+        margin-bottom: .5rem;
+    }
+
+    .blog-page .col-8 {
+        width: 100%;
+    }
+
+    .blog-page .col-6 {
+        width: 100%;
+        margin-top: 1.5rem;
+    }
+
+    .blog-page .col-8 img {
+        height: 136px !important;
+        width: 100%;
+    }
+
+    .blog-page .blog-sec .pe-5 {
+        padding-right: 0px !important;
+    }
+
+    .blog-page .part-margin {
+        margin: 0px -.8rem !important;
+    }
+
+    /* blog-inner-page */
+
+    .blog-inner br {
+        display: none !important;
+    }
+
+    .blog-inner .part {
+        font-size: 10px !important;
+        line-height: 20px !important;
+    }
+
+    .blog-inner span {
+        font-size: 10px !important;
+        line-height: 20px !important;
+    }
+
+    .blog-inner .row {
+        padding: 0 15px !important;
+    }
+
+    .blog-inner .blog-img img {
+        height: 136px !important;
+    }
+
+    .blog-inner h2 {
+        font-size: 25px !important;
+        line-height: 35px !important;
+    }
+
+    .reply .col-4 {
+        width: 100%;
+    }
+
+    .reply .col-4.px-4 {
+        padding: 0px !important;
+        margin: 1rem 0;
+    }
+
+
+    /* contact-page----------------------------------------- */
+
+    .contact .main-p br {
+        display: none;
+    }
+
+    .contact .col-6 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .contact h6 {
+        font-size: 30px !important;
+        line-height: 40px !important;
+    }
+
+    /* search-page----------------------------------------- */
+
+    .section .col-4 {
+        width: 100%;
+    }
+
+    .section img {
+        height: 181px !important;
+    }
+
+    .section br {
+        display: none;
+    }
+}

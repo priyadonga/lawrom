@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming soon - lawrom</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/docs.css">
+
+    <!-- bootstrap-icon -->
+    <link rel="stylesheet" href="css/all.css">
+
+    <!-- animation -->
+    <link rel="stylesheet" href="css/animate.css">
+
+    <!-- media -->
+    <link rel="stylesheet" href="css/media.css">
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <div id="loader"></div>
+
+    <!-- header -->
+
+    <section class="header text-white">
+        <nav class="navbar navbar-expand-lg p-0">
+            <div class="container-fluid">
+
+                <div class="col-5 d-grid justify-content-start">
+                    <ul class="navbar-nav text-uppercase">
+                        <li class="nav-item px-4 d-flex align-items-center">
+                            <a aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item d-flex align-items-center">
+                            <div class="dropdown">
+                                <a class="btn p-0 border-0" role="button">
+                                    Pages<i class="bi bi-chevron-down ms-2"></i>
+                                </a>
+                                <ul class="dropdown-menu py-0 rounded-0 border-0">
+                                    <li><a class="dropdown-item" href="team.html">Our team</a></li>
+                                    <li><a class="dropdown-item" href="price.html">Pricing plan</a></li>
+                                    <li><a class="dropdown-item" href="faq.html">Faq</a></li>
+                                    <li><a class="dropdown-item bg-color text-white" href="coming.html">Coming soon</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item px-4 d-flex align-items-center">
+                            <a aria-current="page" href="about.html">About us</a>
+                        </li>
+                        <li class="nav-item px-4 d-flex align-items-center">
+                            <a aria-current="page" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item px-4 d-flex align-items-center">
+                            <a aria-current="page" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-2 d-flex justify-content-center">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="img/logo.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-5 d-flex justify-content-end align-items-center text-black">
+                    <a><i class="fa-solid fa-mobile-screen"></i></a>
+                    <span class="ms-2 me-5">Mon - Fri - 08:00 - 06:00</span>
+                    <div class="main-btn pe-4">
+                        <a href="contact.html"
+                            class="btn rounded-0 text-uppercase d-flex align-items-center justify-content-center">HIRE
+                            ME</a>
+                    </div>
+                </div>
+
+                <button class="sticky btn modal-btn border-0 p-0" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                    <i class="bi bi-list fs-4"></i>
+                </button>
+
+            </div>
+        </nav>
+
+        <!-- offcanvas -->
+
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight">
+            <div class="offcanvas-header">
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <a class="nav-link active me-5" aria-current="page" href="index.html">Home</a>
+                <!-- dropdown start-->
+                <div class="dropdown">
+                    <span>Pages</span>
+                    <a class="btn border-0 p-0 my-4" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <i class="bi bi-chevron-down ms-5 text-black"></i>
+                    </a>
+                    <ul class="dropdown-menu border-0 py-0" style="transform: translate(-37rem, 52px) !important;">
+                        <li><a class="dropdown-item py-3" href="team.html">Our Team</a></li>
+                        <li><a class="dropdown-item py-3" href="price.html">Pricing plan</a></li>
+                        <li><a class="dropdown-item py-3" href="faq.html">Faq</a></li>
+                        <li><a class="dropdown-item py-3 color" href="team.html">Coming Soon</a></li>
+                    </ul>
+                </div>
+                <!-- dropdown end -->
+                <a class="nav-link active me-5" aria-current="page" href="about.html">About</a>
+                <a class="nav-link active me-5 my-4" aria-current="page" href="blog.html">Blog</a>
+                <a class="nav-link active me-5" aria-current="page" href="contact.html">Contact</a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- main -->
+
+    <section class="coming-bg wow fadeIn" data-wow-duration="1s" style="overflow-x: hidden;">
+        <div class="container">
+            <div class="fix-part text-center text-white">
+                <h2 class="text-uppercase fw-normal mb-3">
+                    Cooming Soon
+                </h2>
+                <h4 class="text-white fw-normal">Dignissim diam quis enim lobortis scele neque ornare aenean risque.
+                </h4>
+                <div id="timer"></div>
+                <a href="index.html" class="btn text-uppercase rounded-0 border-0 fw-normal">Back to home page</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+
+    <section class="footer p-0">
+        <div class="fix-btn">
+            <a href="#" class="btn position-fixed rounded-0 border border-1 border-white">
+                <i class="bi bi-chevron-up text-white"></i>
+            </a>
+        </div>
+    </section>
+
+    <!-- all -->
+    <script src="js/jquery.min.js"></script>
+
+    <!-- animation -->
+    <script src="js/wow.min.js"></script>
+
+    <!-- bootstrap -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- custom -->
+    <script src="js/custom.js"></script>
+
+    <script>
+
+        // timer
+
+        function updateTimer() {
+            future = Date.parse("september 2, 2024 12:00:00");
+            now = new Date();
+            diff = future - now;
+
+            days = Math.floor(diff / (1000 * 60 * 60 * 24));
+            hours = Math.floor(diff / (1000 * 60 * 60));
+            mins = Math.floor(diff / (1000 * 60));
+            secs = Math.floor(diff / 1000);
+
+            d = days;
+            h = hours - days * 24;
+            m = mins - hours * 60;
+            s = secs - mins * 60;
+
+            document.getElementById("timer")
+                .innerHTML =
+                '<div>' + d + '<span>Days</span></div>' +
+                '<div>' + h + '<span>Hours</span></div>' +
+                '<div>' + m + '<span>Minutes</span></div>' +
+                '<div>' + s + '<span>Seconds</span></div>';
+        }
+        setInterval('updateTimer()', 100);
+
+    </script>
+
+</body>
+
+</html>

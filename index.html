@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cooki Drem</title>
+
+    <!-- favicon -->
+    <link rel="icon" href="img/favicon.png" type="image/x-icon">
+
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/docs.css">
+
+    <!-- bootstrap-icon -->
+    <link rel="stylesheet" href="css/all.css">
+
+    <!-- owl-carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <!-- animation -->
+    <link rel="stylesheet" href="css/animate.css">
+
+    <!-- media -->
+    <link rel="stylesheet" href="css/media.css">
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <div id="loader"></div>
+
+    <!-- header -->
+
+    <section class="header text-white">
+        <nav class="navbar navbar-expand-lg p-0">
+            <div class="container-fluid">
+
+                <div class="col-5 d-grid justify-content-start">
+                    <ul class="navbar-nav text-uppercase">
+                        <li class="nav-item px-4 d-flex align-items-center">
+                            <a aria-current="page" href="index.html" class="color">Home</a>
+                        </li>
+                        <li class="nav-item d-flex align-items-center">
+                            <div class="dropdown">
+                                <a class="btn p-0 border-0" role="button">
+                                    Pages<i class="bi bi-chevron-down ms-2"></i>
+                                </a>
+                                <ul class="dropdown-menu py-0 rounded-0 border-0">
+                                    <li><a class="dropdown-item" href="team.html">Our team</a></li>
+                                    <li><a class="dropdown-item" href="price.html">Pricing plan</a></li>
+                                    <li><a class="dropdown-item" href="faq.html">Faq</a></li>
+                                    <li><a class="dropdown-item" href="coming.html">Coming soon</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item px-4 d-flex align-items-center">
+                            <a aria-current="page" href="about.html">About us</a>
+                        </li>
+                        <li class="nav-item px-4 d-flex align-items-center">
+                            <a aria-current="page" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item px-4 d-flex align-items-center">
+                            <a aria-current="page" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-2 d-flex justify-content-center">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="img/logo.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-5 d-flex justify-content-end align-items-center text-black">
+                    <a><i class="fa-solid fa-mobile-screen"></i></a>
+                    <span class="ms-2 me-5">Mon - Fri - 08:00 - 06:00</span>
+                    <div class="main-btn pe-4">
+                        <a href="contact.html"
+                            class="btn rounded-0 text-uppercase d-flex align-items-center justify-content-center">HIRE
+                            ME</a>
+                    </div>
+                </div>
+
+                <button class="sticky btn modal-btn border-0 p-0" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                    <i class="bi bi-list fs-4"></i>
+                </button>
+
+            </div>
+        </nav>
+
+        <!-- offcanvas -->
+
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight">
+            <div class="offcanvas-header">
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <a class="nav-link active me-5 color" aria-current="page" href="index.html">Home</a>
+                <!-- dropdown start-->
+                <div class="dropdown">
+                    <span>Pages</span>
+                    <a class="btn border-0 p-0 my-4" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        <i class="bi bi-chevron-down ms-5 text-black"></i>
+                    </a>
+                    <ul class="dropdown-menu border-0 py-0" style="transform: translate(-37rem, 52px) !important;">
+                        <li><a class="dropdown-item py-3" href="team.html">Our Team</a></li>
+                        <li><a class="dropdown-item py-3" href="price.html">Pricing plan</a></li>
+                        <li><a class="dropdown-item py-3" href="faq.html">Faq</a></li>
+                        <li><a class="dropdown-item py-3" href="coming.html">Coming Soon</a></li>
+                    </ul>
+                </div>
+                <!-- dropdown end -->
+                <a class="nav-link active me-5" aria-current="page" href="about.html">About</a>
+                <a class="nav-link active me-5 my-4" aria-current="page" href="blog.html">Blog</a>
+                <a class="nav-link active me-5" aria-current="page" href="contact.html">Contact</a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- banner -->
+
+    <section class="banner bg-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="text-uppercase color">Vision Makes Us Who We Are</p>
+                    <h2 class="text-uppercase mt-4">Bringing Solution <br>
+                        By Providing</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- img -->
+
+    <section class="banner-img banner-img1">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <div class="img img1 wow fadeIn">
+                        <img src="img/banner-01.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="img img2 wow fadeIn">
+                        <img src="img/banner-02.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- img -->
+
+    <section class="banner-img2 bottom-padding bg-gray">
+        <div class="container">
+            <div class="row">
+                <div class="d-block">
+                    <div class="col-6">
+                        <div class="img img1 wow fadeIn">
+                            <img src="img/banner-01.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-6">
+                        <div class="img img2 wow fadeIn">
+                            <img src="img/banner-02.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- questions -->
+
+    <section class="questions bg-blue top-padding">
+        <div class="container">
+            <div class="row bottom-padding">
+                <div class="col-6 main">
+                    <p class="text-uppercase color">Who We Are</p>
+                    <h3 class="text-uppercase text-white">
+                        legal expertise <br>
+                        of Law Firm
+                    </h3>
+                </div>
+                <div class="col-6">
+                    <div class="accordion" id="accordionExample">
+                        <!-- 1 -->
+                        <div class="accordion-item border-0">
+                            <h2 class="accordion-header" id="headingTwo">
+                                <button class="accordion-button fw-normal" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#collapseheadingTwo" aria-expanded="true"
+                                    aria-controls="collapseheadingTwo">
+                                    The Street Painting Scene?
+                                </button>
+                            </h2>
+                            <div id="collapseheadingTwo" class="accordion-collapse collapse show"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>It is a long established fact that a reader will be distracted by the Lorem <br>
+                                        Ipsum is that it has a more-or-less
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 2 -->
+                        <div class="accordion-item border-0 border-top border-bottom border-main-color">
+                            <h2 class="accordion-header" id="headingOne">
+                                <button class="accordion-button fw-normal collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseheadingOne" aria-expanded="false"
+                                    aria-controls="collapseheadingOne">
+                                    Where can I get some?
+                                </button>
+                            </h2>
+                            <div id="collapseheadingOne" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>It is a long established fact that a reader will be distracted by the Lorem <br>
+                                        Ipsum is that it has a more-or-less
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 3 -->
+                        <div class="accordion-item border-0">
+                            <h2 class="accordion-header" id="headingThree">
+                                <button class="accordion-button fw-normal collapsed" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false"
+                                    aria-controls="collapseThree">
+                                    Where does it come from?
+                                </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>It is a long established fact that a reader will be distracted by the Lorem <br>
+                                        Ipsum is that it has a more-or-less
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row question-border border-top border-main-color">
+                <div class="col-4 d-flex justify-content-center align-items-center">
+                    <div class="row">
+                        <div class="col-3 ps-2">
+                            <div class="img">
+                                <img src="img/01.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-9 text-white">
+                            <h4 class="text-white">Appointment</h4>
+                            <p>It is a long established fact <br>
+                                Lorem Ipsum is </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div
+                    class="col-4 question-border border-start border-end border-main-color d-flex justify-content-center align-items-center">
+                    <div class="row">
+                        <div class="col-3 ps-2">
+                            <div class="img">
+                                <img src="img/02.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-9 text-white">
+                            <h4 class="text-white">Expert Advice</h4>
+                            <p>It is a long established fact <br>
+                                Lorem Ipsum is </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 question-top d-flex justify-content-center align-items-center">
+                    <div class="row">
+                        <div class="col-3 ps-2">
+                            <div class="img">
+                                <img src="img/03.svg" alt="">
+                            </div>
+                        </div>
+                        <div class="col-9 text-white">
+                            <h4 class="text-white">Join Our Team</h4>
+                            <p>It is a long established fact <br>
+                                Lorem Ipsum is </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- team -->
+
+    <section class="team all-margin">
+        <div class="container">
+            <div class="row main">
+                <p class="text-uppercase color mb-0">Our Team</p>
+                <h3 class="text-uppercase">
+                    You Come To <br> Right Place
+                </h3>
+            </div>
+            <!-- 1 -->
+            <div class="row info-row">
+                <div class="col-6">
+                    <div class="img wow fadeInDown">
+                        <img src="img/team-main-01.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-6 d-grid align-items-center">
+                    <div class="part">
+                        <h4>Ingrid Wilson</h4>
+                        <span class="color text-uppercase"> Attorney & Partner</span>
+                        <p class="my-4">It is a long established fact that a reader will be distracted <br> by the Lorem
+                            Ipsum is that it
+                            ha.
+                        </p>
+                        <div class="d-flex">
+                            <a href="">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                            <a href="" class="icon-margin">
+                                <i class="fa-brands fa-x-twitter"></i>
+                            </a>
+                            <a href="">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 2 -->
+            <div class="row row2 info-row">
+                <div class="col-6 d-grid align-items-center">
+                    <div class="part">
+                        <h4>Mike Flanagan</h4>
+                        <span class="color text-uppercase"> Attorney & Partner</span>
+                        <p class="my-4">It is a long established fact that a reader will be distracted <br> by the Lorem
+                            Ipsum is that it
+                            ha.
+                        </p>
+                        <div class="d-flex">
+                            <a href="">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>
+                            <a href="" class="icon-margin">
+                                <i class="fa-brands fa-x-twitter"></i>
+                            </a>
+                            <a href="">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="img wow fadeInUp">
+                        <img src="img/team-main-02.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- client -->
+
+    <section class="client bg-gray all-padding text-center wow fadeIn">
+        <div class="container">
+            <div class="row">
+                <p class="main text-uppercase color mb-0">Tetstimonial</p>
+                <h3 class="text-uppercase">What Our About <br>
+                    Client Say’s</h3>
+                <div class="qote-img d-flex justify-content-center">
+                    <img src="img/quote.png" alt="">
+                </div>
+                <div class="owl-carousel owl-theme owl-carousel-1">
+                    <div class="item">
+                        <p class="client-margin">
+                            “Donec arcu dolor, elementum et facilisis quis diam. Sed ut eget libero consectetur
+                            iaculis. <br> Ut lacinia eros in erat gravida tempor. Quisque condimentum urna mauris.”
+                        </p>
+                        <h4>-Ada Steven</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- img -->
+
+    <div class="img-section fix-img wow fadeIn" style="Background-image: url('./img/parr.jpg')">
+        <div class="img-inner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6">
+                        <h3 class="text-uppercase fw-normal text-white">You've Come To The <br> Right Place </h3>
+                    </div>
+                    <div class="col-6 d-flex justify-content-end align-items-center">
+                        <button
+                            class="btn footer-btn bg-btn text-uppercase rounded-0 border border-1 border-color fw-normal">Visit
+                            Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- services -->
+
+    <section class="services all-padding">
+        <div class="container">
+            <div class="row main">
+                <p class="text-uppercase color mb-0">Our Services</p>
+                <h3 class="text-uppercase">specially Skilled <br>
+                    Service</h3>
+            </div>
+
+            <!-- 1 -->
+            <div class="row">
+                <div class="col-6">
+                    <div class="border border-1 d-flex">
+                        <div class="img">
+                            <div class="inner-img">
+                                <img src="img/ser-01.jpg" alt="" class="object-fit-cover">
+                            </div>
+                        </div>
+                        <div class="text">
+                            <h4 class="fw-normal">Building And <br> Architect Law’s
+                            </h4>
+                            <p>It is a long established fact that a reader will be distrac by te Lorem
+                                Ipsum. </p>
+                            <button class="btn text-uppercase p-0 fw-normal text-decoration-underline">read
+                                more</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="border border-1 d-flex">
+                        <div class="img">
+                            <div class="inner-img">
+                                <img src="img/ser-02.jpg" alt="" class="object-fit-cover">
+                            </div>
+                        </div>
+                        <div class="text">
+                            <h4 class="fw-normal">Criminal
+                                <br> Law
+                            </h4>
+                            <p>It is a long established fact that a reader will be distrac by te Lorem
+                                Ipsum. </p>
+                            <button class="btn text-uppercase p-0 fw-normal text-decoration-underline">read
+                                more</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 2 -->
+            <div class="row services-row">
+                <div class="col-6">
+                    <div class="border border-1 d-flex">
+                        <div class="img">
+                            <div class="inner-img">
+                                <img src="img/ser-03.jpg" alt="" class="object-fit-cover">
+                            </div>
+                        </div>
+                        <div class="text">
+                            <h4 class="fw-normal">Employment <br>
+                                Law
+                            </h4>
+                            <p>It is a long established fact that a reader will be distrac by te Lorem
+                                Ipsum. </p>
+                            <button class="btn text-uppercase p-0 fw-normal text-decoration-underline">read
+                                more</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="border border-1 d-flex">
+                        <div class="img">
+                            <div class="inner-img">
+                                <img src="img/ser-04.jpg" alt="" class="object-fit-cover">
+                            </div>
+                        </div>
+                        <div class="text">
+                            <h4 class="fw-normal">Intellectual <br> Property
+                            </h4>
+                            <p>It is a long established fact that a reader will be distrac by te Lorem
+                                Ipsum. </p>
+                            <button class="btn text-uppercase p-0 fw-normal text-decoration-underline">read
+                                more</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- img -->
+
+    <div class="img-section2 fix-img wow fadeIn" style="Background-image: url('./img/parr-02.jpg')">
+        <div class="black-box"></div>
+        <div class="img-inner">
+            <div class="text main-btn">
+                <h3 class="text-uppercase text-white fw-normal">You've Come To The <br>
+                    Right Place</h3>
+                <button class="btn text-uppercase rounded-0">Visit
+                    Now</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- blog -->
+
+    <section class="blog all-margin">
+        <div class="container">
+            <div class="row main">
+                <p class="text-uppercase color mb-0">Our Blog’s</p>
+                <h3 class="text-uppercase">Get The Latest <br>
+                    Updates</h3>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="owl-carousel owl-theme owl-carousel-3">
+                        <!-- 1 -->
+                        <div class="item">
+                            <div class="img">
+                                <div class="inner-img">
+                                    <a href="blog1.html"><img src="img/blog-01.jpg" alt="" class="object-fit-cover">
+                                    </a>
+                                </div>
+                            </div>
+                            <button class="btn border-0 rounded-0 fw-normal text-white">
+                                28 Aug
+                            </button>
+                            <div class="blog-info">
+                                <a href="blog1.html" class="text-decoration-none">
+                                    <h4 class="fw-normal pt-3 pb-2 m-0">Progress on Criminal Record Relief for
+                                        Trafficking Survivors</h4>
+                                </a>
+                                <p class="mb-0">What comes to your mind once you hear the <br> word ‘meme’? Probably...
+                                </p>
+                            </div>
+                        </div>
+                        <!-- 2 -->
+                        <div class="item">
+                            <div class="img">
+                                <div class="inner-img">
+                                    <a href="blog2.html"><img src="img/blog-02.jpg" alt="" class="object-fit-cover">
+                                    </a>
+                                </div>
+                            </div>
+                            <button class="btn border-0 rounded-0 fw-normal text-white">
+                                28 Aug
+                            </button>
+                            <div class="blog-info">
+                                <a href="blog2.html" class="text-decoration-none">
+                                    <h4 class="fw-normal pt-3 pb-2 m-0">How to obtain a home loan: things to consider
+                                        before you apply</h4>
+                                </a>
+                                <p class="mb-0">Divorce and Separation One of the most <br> common areas where family...
+                                </p>
+                            </div>
+                        </div>
+                        <!-- 3 -->
+                        <div class="item">
+                            <div class="img">
+                                <div class="inner-img">
+                                    <a href="blog3.html"><img src="img/blog-03.jpg" alt="" class="object-fit-cover">
+                                    </a>
+                                </div>
+                            </div>
+                            <button class="btn border-0 rounded-0 fw-normal text-white">
+                                28 Aug
+                            </button>
+                            <div class="blog-info">
+                                <a href="blog3.html" class="text-decoration-none">
+                                    <h4 class="fw-normal pt-3 pb-2 m-0">Former Quality Assurance Director Pleads Guilty
+                                    </h4>
+                                </a>
+                                <p class="mb-0">An appellate court in the United States upheld a <br> $3 million jury...
+                                </p>
+                            </div>
+                        </div>
+                        <!-- 4 -->
+                        <div class="item">
+                            <div class="img">
+                                <div class="inner-img">
+                                    <a href="blog4.html"><img src="img/blog-04.jpg" alt="" class="object-fit-cover">
+                                    </a>
+                                </div>
+                            </div>
+                            <button class="btn border-0 rounded-0 fw-normal text-white">
+                                28 Aug
+                            </button>
+                            <div class="blog-info">
+                                <a href="blog4.html" class="text-decoration-none">
+                                    <h4 class="fw-normal pt-3 pb-2 m-0">Strategic Lawsuits Against Public Participation
+                                        (SLAPPs)</h4>
+                                </a>
+                                <p class="mb-0">A Traverse Hearing is a pre-trial hearing ordered <br> when a
+                                    defendant...</p>
+                            </div>
+                        </div>
+                        <!-- 5 -->
+                        <div class="item">
+                            <div class="img">
+                                <div class="inner-img">
+                                    <a href="blog5.html"><img src="img/blog-05.jpg" alt="" class="object-fit-cover">
+                                    </a>
+                                </div>
+                            </div>
+                            <button class="btn border-0 rounded-0 fw-normal text-white">
+                                28 Aug
+                            </button>
+                            <div class="blog-info">
+                                <a href="blog5.html" class="text-decoration-none">
+                                    <h4 class="fw-normal pt-3 pb-2 m-0">Know Your BATNA: The Power of Information in
+                                        Negotiation</h4>
+                                </a>
+                                <p class="mb-0">Historically, animals have been used as a foil for <br> humans,
+                                    presented...</p>
+                            </div>
+                        </div>
+                        <!-- 6 -->
+                        <div class="item">
+                            <div class="img">
+                                <div class="inner-img">
+                                    <a href="blog6.html"><img src="img/blog-06.jpg" alt="" class="object-fit-cover">
+                                    </a>
+                                </div>
+                            </div>
+                            <button class="btn border-0 rounded-0 fw-normal text-white">
+                                28 Aug
+                            </button>
+                            <div class="blog-info">
+                                <a href="blog6.html" class="text-decoration-none">
+                                    <h4 class="fw-normal pt-3 pb-2 m-0">What You Need to Know When Establishing a
+                                        Personal</h4>
+                                </a>
+                                <p class="mb-0">At Akkadian, we have experienced solicitors <br> capable of handling...
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+
+    <section class="footer bg-blue">
+        <div class="container">
+            <div class="col-12 d-flex justify-content-center">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="img/logo.svg" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="row info">
+
+                <div class="col-3 hide-footer">
+                    <h4 class="text-white fw-normal mb-3">Discover</h4>
+                    <ul class="p-0 m-0">
+                        <li class="list-group-item"><a href="about.html" class="text-decoration-none">About
+                                Us</a>
+                        </li>
+                        <li class="list-group-item my-2"><a href="price.html" class="text-decoration-none">Pricing
+                                plan</a>
+                        </li>
+                        <li class="list-group-item"><a href="blog.html" class="text-decoration-none">Blog</a>
+                        </li>
+                        <li class="list-group-item mt-2"><a href="contact.html" class="text-decoration-none">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- accordion1 -->
+                <div class="col-3 hide-footerr">
+                    <div class="accordion">
+                        <div class="accordion-item border-0 rounded-0">
+                            <h2 class="accordion-header">
+                                <button
+                                    class="accordion-button accordion-footer collapsed justify-content-center p-0 mb-3 fw-normal"
+                                    type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseFooterOne" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseFooterOne">
+                                    Discover
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseFooterOne" class="accordion-collapse collapse">
+                                <div class="accordion-body p-0">
+                                    <ul class="p-0 m-0">
+                                        <li class="list-group-item"><a href="about.html"
+                                                class="text-decoration-none">About
+                                                Us</a>
+                                        </li>
+                                        <li class="list-group-item my-2"><a href="price.html"
+                                                class="text-decoration-none">Pricing plan</a>
+                                        </li>
+                                        <li class="list-group-item"><a href="blog.html"
+                                                class="text-decoration-none">Blog</a>
+                                        </li>
+                                        <li class="list-group-item mt-2"><a href="contact.html"
+                                                class="text-decoration-none">Contact</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3 social main-col hide-footer">
+                    <h4 class="text-white fw-normal mb-3">Support</h4>
+                    <ul class="p-0 m-0">
+                        <li class="list-group-item"><a href="index.html" class="text-decoration-none">Facebook</a>
+                        </li>
+                        <li class="list-group-item my-2"><a href="index.html" class="text-decoration-none">Twitter</a>
+                        </li>
+                        <li class="list-group-item"><a href="index.html" class="text-decoration-none">Instagram</a>
+                        </li>
+                        <li class="list-group-item my-2"><a href="index.html" class="text-decoration-none">Linkedin</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- accordion2 -->
+                <div class="col-3 hide-footerr">
+                    <div class="accordion">
+                        <div class="accordion-item border-0 rounded-0">
+                            <h2 class="accordion-header">
+                                <button
+                                    class="accordion-button accordion-footer collapsed justify-content-center p-0 mb-3 fw-normal"
+                                    type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseFooterTwo" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseFooterTwo">
+                                    Support
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseFooterTwo" class="accordion-collapse collapse">
+                                <div class="accordion-body p-0">
+                                    <ul class="p-0 m-0">
+                                        <li class="list-group-item"><a href="index.html"
+                                                class="text-decoration-none">Facebook</a>
+                                        </li>
+                                        <li class="list-group-item my-2"><a href="index.html"
+                                                class="text-decoration-none">Twitter</a>
+                                        </li>
+                                        <li class="list-group-item"><a href="index.html"
+                                                class="text-decoration-none">Instagram</a>
+                                        </li>
+                                        <li class="list-group-item my-2"><a href="index.html"
+                                                class="text-decoration-none">Linkedin</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3 hide-footer">
+                    <h4 class="text-white fw-normal mb-3">Contact</h4>
+                    <ul class="p-0 m-0">
+                        <li class="list-group-item"><a href="index.html"
+                                class="text-decoration-none text-capitalize">contact@infotech.com</a></li>
+                        <li class="list-group-item mt-2"><a href="index.html" class="text-decoration-none">141 . 258 .
+                                0159</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- accordion3 -->
+                <div class="col-3 hide-footerr">
+                    <div class="accordion">
+                        <div class="accordion-item border-0 rounded-0">
+                            <h2 class="accordion-header">
+                                <button
+                                    class="accordion-button accordion-footer collapsed justify-content-center p-0 mb-3 fw-normal"
+                                    type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseFooterThree" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseFooterThree">
+                                    Contact
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseFooterThree" class="accordion-collapse collapse">
+                                <div class="accordion-body p-0">
+                                    <ul class="p-0 m-0">
+                                        <li class="list-group-item"><a href="index.html"
+                                                class="text-decoration-none text-capitalize">contact@infotech.com</a>
+                                        </li>
+                                        <li class="list-group-item mt-2"><a href="index.html"
+                                                class="text-decoration-none">141 . 258 .
+                                                0159</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-3 form main-col hide-footer">
+                    <h4 class="text-white fw-normal mb-5">Let’s Stay in Touch</h4>
+                    <form>
+                        <input type="email" class="border-0 w-100 text-center mb-3" placeholder="Enter Email" required>
+                        <button
+                            class="btn footer-btn bg-btn text-uppercase rounded-0 border border-1 border-color w-100">subscribe</button>
+                    </form>
+                </div>
+
+                <!-- accordion4 -->
+                <div class="col-3 hide-footerr">
+                    <div class="accordion">
+                        <div class="accordion-item border-0 rounded-0">
+                            <h2 class="accordion-header">
+                                <button
+                                    class="accordion-button accordion-footer collapsed justify-content-center p-0 mb-3 fw-normal"
+                                    type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseFooterFour" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseFooterFour">
+                                    Let’s Stay in Touch
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseFooterFour" class="accordion-collapse collapse">
+                                <div class="accordion-body p-0">
+                                    <form>
+                                        <input type="email" class="border-0 w-100 text-center mb-3"
+                                            placeholder="Enter Email" required>
+                                        <button
+                                            class="btn footer-btn bg-btn text-uppercase rounded-0 border border-1 border-color w-100">subscribe</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <span class="border-top border-main-color mb-3"></span>
+                <div class="col-12 d-flex justify-content-center py-2 text-white">
+                    <p>© 2024 - Html Theme by Code4rest</p>
+                </div>
+            </div>
+        </div>
+        <div class="fix-btn">
+            <a href="#" class="btn position-fixed rounded-0 border border-1 border-white">
+                <i class="bi bi-chevron-up text-white"></i>
+            </a>
+        </div>
+    </section>
+
+
+    <!-- all -->
+    <script src="js/jquery.min.js"></script>
+
+    <!-- owl-carousel -->
+    <script src="js/owl.carousel.min.js"></script>
+
+    <!-- animation -->
+    <script src="js/wow.min.js"></script>
+
+    <!-- bootstrap -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+    <!-- swiper-js -->
+    <script src="js/swiper.js"></script>
+
+    <!-- custom -->
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>
